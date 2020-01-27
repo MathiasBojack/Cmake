@@ -1,0 +1,10 @@
+^F:\13.CODE\GIT\CMAKE\EX1\CMAKELISTS.TXT
+setlocal
+D:\Cmake\bin\cmake.exe -SF:/13.Code/Git/Cmake/ex1 -BF:/13.Code/Git/Cmake/ex1/build --check-stamp-file F:/13.Code/Git/Cmake/ex1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

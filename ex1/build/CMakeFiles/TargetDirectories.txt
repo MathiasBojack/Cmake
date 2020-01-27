@@ -1,0 +1,4 @@
+F:/13.Code/Git/Cmake/ex1/build/CMakeFiles/HelloWorld.dir
+F:/13.Code/Git/Cmake/ex1/build/CMakeFiles/INSTALL.dir
+F:/13.Code/Git/Cmake/ex1/build/CMakeFiles/ALL_BUILD.dir
+F:/13.Code/Git/Cmake/ex1/build/CMakeFiles/ZERO_CHECK.dir
